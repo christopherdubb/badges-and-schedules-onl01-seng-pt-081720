@@ -8,7 +8,7 @@ def batch_badge_creator(arr)
   arr.each do |peeps|
     arr2.push("Hello, my name is #{peeps}")
   end
-  
+
   return arr2 
   
 end
