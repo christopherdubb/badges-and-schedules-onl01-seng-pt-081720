@@ -5,7 +5,9 @@ end
 
 def batch_badge_creator(arr)
   arr.each do |peeps|
+    
     return "Hello, my name is #{peeps}."
+    
   end
   
   
