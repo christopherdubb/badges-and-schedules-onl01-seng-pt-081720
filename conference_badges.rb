@@ -14,6 +14,9 @@ def batch_badge_creator(arr)
 end
   
 def assign_rooms(arr)
-  
+  arr2 = []
+  arr.each do |speakers|
+    arr2.push("Hello, #{speakers}! You'll be assigned to room ")
+    
   
 end
