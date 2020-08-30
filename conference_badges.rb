@@ -19,6 +19,7 @@ def assign_rooms(arr)
   arr.each do |speakers|
     arr2.push("Hello, #{speakers}! You'll be assigned to room #{number}!")
     number +=1
+  end
     
   
 end
